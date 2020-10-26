@@ -1,0 +1,37 @@
+{
+  "name": "html-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "prepare-build": "cp package.json ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "autoprefixer": "^10.0.1",
+    "css-loader": "^5.0.0",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^4.0.4",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpac": "0.0.1-security",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "@cloudinary/base": "^1.0.0-alpha.0"
+  },
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^1.1.1"
+  }
+}
